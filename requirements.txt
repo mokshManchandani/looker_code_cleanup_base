@@ -1,0 +1,9 @@
+lkml
+pyarrow
+fastparquet
+pandas
+looker_sdk
+flask
+flask_cors
+python-dotenv
+google-cloud-bigquery
