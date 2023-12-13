@@ -12,3 +12,5 @@ things to make sure while trying to run this script
 - having a valid service account key for your gcp account and point it to the GOOGLE_APPLICATION_CREDENTIALS key in the .env file
 - have a looker.ini file ready with the a section called Looker with the base_url, client_id and client_secret for connecting to the looker instance also make sure your id and secret combination have api access enabled
 - for local development hardcode the REPO_LINK key in .env file without this the github service wont work
+
+to run local development move to the cloned folder and run the command `python main.py` it should run a development server on port `3000`
